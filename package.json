@@ -1,0 +1,14 @@
+{
+    "name": "kittycoinparser",
+    "version": "1.0.0",
+    "description": "Official KittyCoin Generation Library for the KittyCoin Club Ethereum Smart Contract",
+    "main": "kittycoinparser.js",
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nathan Glover",
+    "repository" :{
+	"type" : "git",
+	"url" : "https://github.com/fluffycatware/kittycoin-id-parser.git"
+    }
+}
