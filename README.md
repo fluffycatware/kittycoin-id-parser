@@ -32,7 +32,7 @@ The PPM definitions for the types of images output can be found in `kittycoinpar
         <script src="kittycoinparser.js"></script>
         <script>
 
-            generateKittyCoinImage("0x00f9e605e3", 10)
+            generateKittyCoinImage("0x00f9e605e3", 2)
 
             function generateKittyCoinImage(catId, size){
                 size = size || 10;
@@ -41,7 +41,7 @@ The PPM definitions for the types of images output can be found in `kittycoinpar
                 canvas.width = size * data.length;
                 canvas.height = size * data[1].length;
                 var ctx = canvas.getContext("2d");
-            
+
                 for(var i = 0; i < data.length; i++){
                     for(var j = 0; j < data[i].length; j++){
                         var color = data[i][j];
@@ -58,9 +58,9 @@ The PPM definitions for the types of images output can be found in `kittycoinpar
 </html> 
 ```
 
-The catId `0x00f9e605e3` represents the image:
+Here's a couple example of different random IDs:
 
-![0x00f9e605e3](/img/example.png)
+![0x00f9e605e3](/img/example-pic.png)
 
 ## Attribution
 

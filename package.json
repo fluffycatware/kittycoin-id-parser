@@ -2,7 +2,7 @@
     "name": "kittycoinparser",
     "version": "1.0.0",
     "description": "Official KittyCoin Generation Library for the KittyCoin Club Ethereum Smart Contract",
-    "main": "kittycoinparser.js",
+    "main": "src/kittycoinparser.js",
     "scripts": {
 	"test": "echo \"Error: no test specified\" && exit 1"
     },
