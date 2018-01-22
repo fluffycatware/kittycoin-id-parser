@@ -10,6 +10,8 @@
 
 This library exports a single function `kittycoinparser` which takes a 5 byte hex `kittyCoinId` and returns a 2D array of hex color value strings, or `null` for transparency.
 
+You can view a demo of this library running here: [https://fluffycatware.github.io/kittycoin-id-parser/](https://fluffycatware.github.io/kittycoin-id-parser/)
+
 ### Setup
 
 The PPM definitions for the types of images output can be found in `kittycoinparser.js` under the `var designs` field. You can use the `image2ppm` python util that is also in this project. Check the [README](/image2ppm/README.md) for more inforamtion on how to generate lists of PPM strings.
